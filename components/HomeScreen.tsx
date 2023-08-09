@@ -1,5 +1,5 @@
 import "../app/globals.css";
-import { AiFillPhone } from "react-icons/ai";
+import { AiFillPhone, AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { FiMail } from "react-icons/fi";
 import Image from "@/node_modules/next/image";
 
@@ -14,15 +14,27 @@ const HomeScreen = (props: any) => {
             <div className="p-2">Competitive Programmer</div>
             <div className="p-2 flex flex-row items-center space-x-2">
               <div>
-                <FiMail />{" "}
+                <FiMail />
               </div>
               <div> medhruv7@gmail.com</div>
             </div>
             <div className="p-2 flex flex-row items-center space-x-2">
               <div>
-                <AiFillPhone />{" "}
+                <AiFillPhone />
               </div>
               <div> +91-8146882244 </div>
+            </div>
+            <div className="p-2 flex flex-row items-center space-x-2">
+              <div>
+                <AiFillLinkedin />
+              </div>
+              <div> <a href="https://www.linkedin.com/in/dhruv-aggarwal-b33278152/" target="_blank"> https://www.linkedin.com/in/dhruv-aggarwal-b33278152/ </a></div>
+            </div>
+            <div className="p-2 flex flex-row items-center space-x-2">
+              <div>
+                <AiFillGithub />
+              </div>
+              <div> <a href="https://github.com/medhruv7" target="_blank"> https://github.com/medhruv7 </a></div>
             </div>
           </div>
           <div className="mr-52 mt-10 rounded-full overflow-hidden border-black w-200 h-200">

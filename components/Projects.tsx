@@ -12,7 +12,7 @@ const Projects = (props: any) => {
         {ProjectsConstant.map((item) => {
           return (
             <div className="p-4">
-              <Card sx={{ width: 300, height: 350, overflow: "auto" }}>
+              <Card sx={{ width: 400, height: 400, overflow: "auto" }}>
                 <CardHeader title={item.title} />
                 {item.description.map((desc) => (
                   <CardContent>{desc}</CardContent>

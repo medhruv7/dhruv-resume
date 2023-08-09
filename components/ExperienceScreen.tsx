@@ -14,7 +14,7 @@ const Experience = (props: any) => {
           {ExperienceConstant.map(({ title }, idx) => (
             <div
               key={idx}
-              className={"p-4 border-solid rounded-xl border m-10 border-gray-300 hover:bg-gray-200" + (idx === selectedExperience ? " bg-gray-200": "")}
+              className={"p-4 border-double border m-10 drop-shadow border-gray-300 hover:bg-gray-200" + (idx === selectedExperience ? " bg-gray-200": "")}
               onClick={() => setSelectedExperience(idx)}
             >
               {title}
@@ -22,14 +22,17 @@ const Experience = (props: any) => {
           ))}
         </div>
         <div className="w-1/2 m-10">
-          {
-            <ul>
+          {<div className="h-full">
+            <div className="text-xl font-bold p-2">{ExperienceConstant[selectedExperience].title}</div>
+            <div className="text-base font-normal p-2">{ExperienceConstant[selectedExperience].period}</div>
+            <ul className="mt-10">
               {ExperienceConstant[selectedExperience].description.map(
                 (item) => (
                   <li className="p-4 list-disc">{item}</li>
                 )
               )}
             </ul>
+            </div>
           }
         </div>
       </div>

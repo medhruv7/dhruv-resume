@@ -4,7 +4,7 @@ import '../app/globals.css';
 
 const Acheivements = (props: any) => {
   return (
-    <div ref={props.acheivementsRef} className="scroll-my-20">
+    <div ref={props.acheivementsRef} className="scroll-my-20 mt-44">
       <div className="text-5xl text-center p-5 mt-20">Acheivements</div>
       <div className="flex justify-around mt-20 p-10">
         {AcheivementsConstant.map((item, idx) => (

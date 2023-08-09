@@ -2,6 +2,7 @@
 import Acheivements from "@/components/Acheivements";
 import Education from "@/components/Education";
 import Experience from "@/components/ExperienceScreen";
+import Finish from "@/components/Finish";
 import HomeScreen from "@/components/HomeScreen";
 import Navbar from "@/components/Navbar";
 import Projects from "@/components/Projects";
@@ -32,6 +33,7 @@ export default function Home() {
       <Technologies technologiesRef={technologiesRef} />
       <Education educationRef={educationRef} />
       <Acheivements acheivementsRef={acheivementsRef} />
+      <Finish />
     </>
   );
 }
