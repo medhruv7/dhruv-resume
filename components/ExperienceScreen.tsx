@@ -3,6 +3,7 @@
 import { ExperienceConstant } from "@/constants/ExperienceConstant";
 import { useState } from "react";
 import "../app/globals.css";
+import { v4 as uuidv4 } from 'uuid'
 
 const Experience = (props: any) => {
   const [selectedExperience, setSelectedExperience] = useState(0);
@@ -28,7 +29,7 @@ const Experience = (props: any) => {
             <ul className="mt-10">
               {ExperienceConstant[selectedExperience].description.map(
                 (item) => (
-                  <li className="p-4 list-disc">{item}</li>
+                  <li className="p-4 list-disc" key={uuidv4()}>{item}</li>
                 )
               )}
             </ul>

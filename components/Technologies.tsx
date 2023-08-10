@@ -36,7 +36,7 @@ const Technologies = (props: any) => {
           <Image src="/node-logo.webp" alt="Node Js" width="300" height="300" />
         </div>
         <div className="font-medium mt-auto">
-          Worked on Nodejs (4+ Years) and it's related frameworks to make backend server code. Made multiple routes and handler functions for multitude of tasks.
+          Worked on Nodejs (4+ Years) and it&#39;s related frameworks to make backend server code. Made multiple routes and handler functions for multitude of tasks.
         </div>
         </div>
         <div className="p-4 flex flex-col space-y-14">
@@ -62,7 +62,7 @@ const Technologies = (props: any) => {
           />
           </div>
           <div className="font-medium mt-auto">
-          Been using express Js ever since started with nodeJs (4+ years). Primary write the backend code using expressJs instead of vanilla node due to it's simple and powerful syntax and middleware functions.
+          Been using express Js ever since started with nodeJs (4+ years). Primary write the backend code using expressJs instead of vanilla node due to it&#39;s simple and powerful syntax and middleware functions.
         </div>
         </div>
       </div>

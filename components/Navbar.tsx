@@ -1,6 +1,5 @@
 "use client";
 const Navbar = (props: any) => {
-    console.log(props)
   return (
     <div className="bg-blue-500 h-20 flex items-center space-x-4 sticky top-0 z-40">
       <div
